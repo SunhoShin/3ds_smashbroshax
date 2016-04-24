@@ -19,6 +19,7 @@ Supported application builds:
 * v1.0.2. USA: supported, not tested.
 * v1.0.4. USA: supported+tested. "gameother": supported, not tested.
 * v1.0.5. USA: "supported". The target heap address for overwriting the target object varies, hence this hax doesn't actually work right with this version. This version is not fully supported due to this.
+* v1.0.8. KOR: supported, not tested
 * v1.1.0. USA: supported+tested. "gameother": supported+tested.
 * v1.1.1. USA: supported+tested. "gameother": supported+tested.
 * v1.1.2. USA: supported+tested. "gameother": supported+tested.
