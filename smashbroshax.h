@@ -126,7 +126,7 @@
 #else
 #if APPBUILD==105
 #define ADDITONALDATA_SIZE1 0x2056
-#elif APPBUILD>=108
+#elif APPBUILD>=110
 #define ADDITONALDATA_SIZE1 0x20a6
 #endif
 #endif
@@ -142,4 +142,3 @@
 //#define RELOCATED_STACKADDR TMPBUF_ADR+0x6000
 
 #endif
-
