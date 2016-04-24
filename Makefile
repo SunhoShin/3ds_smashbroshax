@@ -88,7 +88,7 @@ all:
 	@make buildhax --no-print-directory $(PARAMS) BUILDNAME=gameusav112 APPBUILD=112 REGION=1 $(COMMIDS_FULLGAME) ROP_PATH=USA/1.1.2
 	@make buildhax --no-print-directory $(PARAMS) BUILDNAME=gameotherv112 APPBUILD=112 $(COMMIDS_FULLGAME) ROP_PATH=gameother/1.1.2
 	@make buildhax --no-print-directory $(PARAMS) BUILDNAME=gameusav101 APPBUILD=101 REGION=1 $(COMMIDS_FULLGAME) ROP_PATH=USA/1.0.1
-
+	@make buildhax --no-print-directory $(PARAMS) BUILDNAME=gamekorv108 APPBUILD=108 REGION=1 $(COMMIDS_FULLGAME) ROP_PATH=USA/1.0.8
 clean:
 	@rm -R -f build
 	@rm -R -f pcap_out
