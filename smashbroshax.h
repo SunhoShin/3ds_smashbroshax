@@ -114,7 +114,7 @@
 #else//full-game
 //#define TMPBUF_ADR 0x33E18000//Full-game linearmem heap is smaller than the demo.
 
-#if APPBUILD<110//Not sure what the exact version is where this changed.
+#if APPBUILD<108//Not sure what the exact version is where this changed.
 #define TEXT_APPMEM_OFFSET 0x00a00000
 #else
 #define TEXT_APPMEM_OFFSET 0x00b00000
